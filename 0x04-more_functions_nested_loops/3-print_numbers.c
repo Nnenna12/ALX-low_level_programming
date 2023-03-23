@@ -1,9 +1,9 @@
 #include "main.h"
-#include "unstd.h"
 
 /**
- * print_numbers - print the numbers since 0 up to 9
- * Return: The number since 0 up to 9
+ * print_numbers - prints numbers 0-9
+ *
+ * Return: void
  */
 
 void print_numbers(void)
@@ -14,6 +14,5 @@ void print_numbers(void)
 	{
 	_putchar(x + '0');
 	}
-	_putchar(char c);
-	_putchar("char *");
+	_putchar('\n');
 }
