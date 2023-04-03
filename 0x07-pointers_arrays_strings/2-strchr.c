@@ -2,10 +2,10 @@
 #include "main.h"
 
 /**
- * _strchr - locates a character in a string
- * @s: string
- * @c: character to search
- * Return: pointer to first occurence of c
+ * _strchr - entry point
+ * @s: input
+ * @c: input
+ * Return: Always 0 (success)
  */
 
 char *_strchr(char *s, char c)
@@ -15,7 +15,7 @@ char *_strchr(char *s, char c)
 	for (i = 0; s[i] >= '\0'; i++)
 	{
 	if (s[i] == c)
-	return (s + 1);
+	return (s + i);
 	}
 	return (NULL);
 }
